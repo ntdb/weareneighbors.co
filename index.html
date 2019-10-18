@@ -32,6 +32,7 @@
       text-decoration: none;
       transform: translate(-50%, -50%);
       width: 100%;
+      z-index: 1;
     }
 
     .center:hover .wave {
@@ -86,6 +87,7 @@
       bottom: 20px;
       left: 50%;
       transform: translateX(-50%);
+      z-index: 1;
     }
 
     @keyframes overlay-animation {
@@ -100,13 +102,12 @@
       animation-timing-function: linear;
       background: repeating-linear-gradient(
         45deg,
-        #ff595a,
-        #ff595a 100vw,
-        #333333 100vw,
-        #333333 200vw
+        #3fb9c4,
+        #f47778 100vw,
+        #000000 100vw,
+        #000000 200vw
       );
       height: 100vh;
-      mix-blend-mode: color;
       pointer-events: none;
       width: 400vw;
     }
